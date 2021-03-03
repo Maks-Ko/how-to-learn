@@ -19,6 +19,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  position: relative;  
   /* выше установили ограничения для секции */ 
 }
 
@@ -42,7 +43,7 @@
 .header__title {
   width: 730px;
   align-self: center;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   z-index: 2;
   line-height: 96px;
   font-size: 102px;
@@ -79,13 +80,14 @@
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
-  height: 568px;
   width: 568px;
+  height: 568px;
   background-color: #2f80ed;
+  background-size: cover;
   position: absolute;
   top: 64px;
-  right: 0px;
-  z-index: 0;
+  right: 0;
+  z-index: 0;  
 }
 
 .content {
@@ -146,6 +148,7 @@
 .section-title {
   width: 60%;
   margin-bottom: 20px;
+  z-index: 2;
 }
 
 .section-title_digits {
@@ -308,9 +311,9 @@
 
 .triangle {
   width: 877px;
-  height: 877px;
+  min-height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
-  background-size: cover;
+  background-size: 100% 90%;
   position: absolute;
   top: 0;
   right: -210px;  
