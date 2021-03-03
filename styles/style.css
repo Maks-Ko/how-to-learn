@@ -179,7 +179,7 @@
 
 .table__cell {
   width: 250px;
-  margin: 60px auto 0 auto;  
+  margin: 60px auto 0 auto;
   padding-left: 0px; 
 }
 
@@ -215,7 +215,7 @@
   background-position: left bottom;
   background-size: 867px 637px; */
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
   position: relative;  
 }
 
@@ -316,7 +316,7 @@
   background-size: 100% 90%;
   position: absolute;
   top: 0;
-  right: -210px;  
+  right: -210px;
   z-index: 1;
 }
 
