@@ -198,7 +198,7 @@
 /* ниже стили для блока faynman */
 .feynman {
   display: flex;
-  height: 790px;
+  min-height: 790px;
   padding-top: 100px;
   background-color: #f2f2f2;
   flex-direction: column;
@@ -282,7 +282,7 @@
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
-  margin-top: 80px 0 0 0;
+  margin-top: 80px;
   width: 200px;
   color: white;
   z-index: 3;
@@ -292,7 +292,7 @@
   width: 877px;
   min-height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
-  background-size: 100% 95%;
+  background-size: 100% 100%;
   position: absolute;
   top: 0;
   right: -210px;
