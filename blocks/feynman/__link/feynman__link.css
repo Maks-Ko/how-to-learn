@@ -4,14 +4,7 @@
     right: 0;
     line-height: 51px;
     font-size: 36px;
-    font-weight: normal;
-    text-decoration: none;
+    font-weight: normal;    
     color: #2f80ed;
     margin: 0 48px 0 0;
-    opacity: 1;
-    transition: opacity 1s linear 1s;
-  }
-
-.feynman__link:hover {
-    opacity: 0.5;
   }
